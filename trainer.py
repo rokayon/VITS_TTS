@@ -88,7 +88,6 @@ model = Vits(config, ap, tokenizer, speaker_manager=None)
 
 model
 
-import torch
 
 # Clear CUDA cache to free up memory
 if torch.cuda.is_available():
