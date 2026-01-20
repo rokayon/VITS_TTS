@@ -101,5 +101,5 @@ trainer = Trainer(
     train_samples=train_samples,
     eval_samples=eval_samples
 )
-%%time
+# %%time
 trainer.fit()
