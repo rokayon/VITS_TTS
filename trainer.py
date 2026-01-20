@@ -83,8 +83,7 @@ ap = AudioProcessor.init_from_config(config)
 ap.resample
 tokenizer, config = TTSTokenizer.init_from_config(config)
 model = Vits(config, ap, tokenizer, speaker_manager=None)
-# checkpoint = torch.load('/home/ansary/Shabab/vits_20_october/best_model_311129.pth')
-# model.load_state_dict(checkpoint["model"])
+
 
 model
 
